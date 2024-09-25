@@ -1,436 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DeputyNick</title>
+		<link rel="stylesheet" href="/src/assets/Css/style.css" />
+		<link rel="stylesheet" href="/src/assets/Css/template.css" />
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+		<link rel="shortcut icon" href="/src/assets/Images/channels4_profile.png" type="image/x-icon">
+	</head>
+	<body>
+		<div class="scrollToTop-btn">
+			<i class="fas fa-angle-up"></i>
+		</div>
 
-  <head>
+		<header class="l-header">
+			<nav class="nav bd-grid">
+				<div>
+					<a href="#" class="nav__logo">Pikczu Website</a>
+				</div>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#home" class="nav__link active">GŁÓWNA</a>
+						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">INFORMACJE</a>
+						</li>
+						<li class="nav__item">
+							<a href="#youtube" class="nav__link">YOUTUBE</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact" class="nav__link">KONTAKT</a>
+						</li>
+					</ul>
+				</div>
 
-    <title>DeputyNick</title>
-
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="fas fa-bars"></i>
+				</div>
+			</nav>
+		</header>
+<div class="wrapper">
+			<div class="content">
+				<header>Pliki Cookies</header>
+				<p>
+					Ta witryna wykorzystuje pliki cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.
+				</p>
+				<div class="buttons">
+					<button class="item">Rozumiem</button>
+					<a href="https://cookiepedia.co.uk/giving-consent-to-cookies"
+						>Więcej...</a
+					>
+				</div>
+			</div>
+		</div>
 	
-	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-	
+		<main class="l-main">
+			<section class="home bd-grid" id="home">
+				<div class="home__data">
+					<h1 class="home__title">
+						Witaj! <br />Jestem <span class="home__title-color">Pikczu</span>
+					</h1>
+					<p class="home__subtitle">
+						Cześć! Możliwe że nie wiesz, ale prowadzę swój kanał na platformie
+						YouTube, subskrybcja milewidziana :D
+					</p>
+					<button
+						class="color-red border-15 tran-border drop"
+						onclick="YtPage();"
+					>
+						SUBSKRYBUJ
+					</button>
+				</div>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	
-	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	   <link rel="stylesheet" href="vendor/custom.css">
-	<!--  Smoth Scroll
-	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-	-->
-	   
-  </head>
+				<div class="home__social drop">
+					<a href="https://instagram.com/pikczuig" class="home__social-icon"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a href="https://twitter.com/Pikczu3" class="home__social-icon"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a href="https://www.youtube.com/c/Pikczuuu" class="home__social-icon"
+						><i class="fab fa-youtube"></i
+					></a>
+					<a href="https://discord.gg/acqNpd8dKX" class="home__social-icon"
+						><i class="fab fa-discord"></i
+					></a>
+				</div>
 
-  <body>
-  <div class="navbar-fixed" id="one">
- <nav class="red darken-1" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#one" class="brand-logo"><i class="fa fa-youtube-play medium"></i>Channel Name</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#one">Homepage</a></li>
-		<li><a href="#two">Know Me</a></li>
-		<li><a href="#three">My Content</a></li>
-		<li><a href="#four">My Subscribers</a></li>
-			<li><a href="#five">Contact Me</a></li>
-      </ul>
+				<div class="home__img">
+					<img src="/src/assets/Images/channels4_profile.png" />
+				</div>
+			</section>
 
-      <ul id="nav-mobile" class="sidenav">
-       <li><a href="#one">Homepage</a></li>
-		<li><a href="#two">Know Me</a></li>
-		<li><a href="#three">My Content</a></li>
-		<li><a href="#four">My Subscribers</a></li>
-			<li><a href="#five">Contact Me</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-  </div>
-  
-  
-   <div id="index-banner one" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center grey-text text-lighten-4">DeputyNick</h1>
-        <div class="row center">
-          <h5 class="header col s12 white-text light">Owner at DeputyMods and a gamer!</h5>
-        </div>
-        <div class="row center">
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light black-text grey lighten-4"> <i class="material-icons left">record_voice_over</i>Subscribe To My Channel</a>
-        </div>
-        <br><br>
+			<div class="newsletter reveal">
+			</div>
 
-      </div>
-    </div>
-    <div class="parallax"><img src="https://fosscrunch.com/assets/img/main/2018-04-25-youtube.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-   
-   <hr>
+			<section class="about section" id="about">
+				<div class="about__container bd-grid">
+					<div>
+						<h2 class="about__subtitle reveal">Kanał YouTube</h2>
+						<p class="about__text reveal">
+							Cześć jestem Pikczu, prowadzę własny kanał w serwisie YouTube już
+							od ponad roku! Na kanale znajdziesz ciekawe materiały z gry
+							Minecraft, możesz również znaleść stare filmy z innych gier. Jeśli
+							chcesz możesz również wpaść na mój drugi kanał z shortami!
+							Serdzenie zapraszam do subskrybowania jeśli interesują Ciebie
+							filmy o tematyce gier!
+						</p>
+					</div>
 
-	
-    <div class="section white" id="two">
-      <div class="row container">
-        <div class="card-panel grey lighten-5 z-depth-5">
-          <div class="row valign-wrapper">
-            <div class="col s2">
-              <img src="https://yt3.ggpht.com/a-/AAuE7mA3AzcTpwFBNtwNVsMap2B1dJXU5orL59U-Ww=s900-mo-c-c0xffffffff-rj-k-no" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-            </div>
-            <div class="col s10">
-              <span class="black-text">
-                 <h2 class="header">Who I am  <span class="red darken-1"> What I Do ? </span></h2>
-        <p class="grey-text text-darken-3 lighten-3 light">I am content Creator On Youtube and the a owner at DeputyMods <span style="Color:#ff0000;">XYZ </span>
-          I’m DeputyNick, an owner at DeputyMods, and I help out with mod brainstorming and more! I collaborate with our team to develop innovative ideas that enhance gameplay experiences. My contributions ensure our mods are engaging and immersive, fostering a vibrant community around DeputyMods. With a focus on teamwork and creativity, I strive to shape the direction of our projects, making a significant impact on the gaming experience for all our users. </p> 
-              </span>
-            </div>
-          </div>
-		  <div class="row video-container z-depth-2">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=UCzoEPdRl20sxlPw9BssaUXA" frameborder="0" allowfullscreen></iframe>
-		  <p> Your Channel Trailer Here </p>
-            </div>
-			<p class="center">Check me out!</p>
-			
-			
-			
-			
+					<div class="about__img">
+						<img
+							class="drop"
+							src="/src/assets/Images/pikczuLogo.png"
+							alt="logo"
+						/>
+					</div>
+				</div>
+			</section>
 
-			<!--	<div class="row">
-                 <div class="col s12 ">
-                      <ul class="tabs red darken-1">
-                          <li class="tab col s3"><a href="#test1">Category 1</a></li>
-                          <li class="tab col s3"><a class="active" href="#test2">Category 2</a></li>
-						    <li class="tab col s3"><a class="active" href="#test3">Category 3</a></li>
-							  <li class="tab col s3"><a class="active" href="#test4">Category 4</a></li>
-                      </ul>
-                    </div>
+			<section id="youtube" class="youtube">
+				<h1 class="section-title reveal">Ostatni Film</h1>
+				<div class="content drop">
+					<iframe
+						width="920"
+						height="530"
+						src="https://www.youtube.com/embed/iSp1tA5lYDI"
+						title="Ostatni Film"
+						frameborder=""
+						allow="accelerometer; clipboard-write; encrypted-media; gyroscope;"
+						allowfullscreen
+					></iframe>
+				</div>
+			</section>
 
-                      <div id="test1" class="col s12">Test 1</div>
-                        <div id="test2" class="col s12">Test 2</div>
-                       <div id="test3" class="col s12">Test 3</div>
-                      <div id="test4" class="col s12">Test 4</div>
-             </div>
-			 
-			 -->
-		  </div> 
-        </div>
-	  </div> 
-	  
-	   <div class="row">
-                 <div class="col s12 m6 l3"><div class="card-panel red center-align">
-                <span class="white-text card-text">Gaming</span>
-         </div>
+			<section id="contact" class="contact">
+				<h1 class="section-title reveal">DeputyNick</h1>
+				<div class="content reveal">
+					<div class="contact__box drop" id="email">
+						<div class="icon" id="email">
+							<i class="fas fa-envelope"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">EMAIL</h1>
+							<p class="contact__subtext">deputymods@gmail.com</p>
+						</div>
+					</div>
+					<div class="contact__box drop" id="yt" onclick="YtPage();">
+						<div class="icon" id="yt">
+							<i class="fab fa-youtube"></i>
+						</div>
+						<div class="info">
+							<h1 class="contact__text">YOUTUBE</h1>
+							<p class="contact__subtext">DeputyNick</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-	  </div>
-    <div class="col s12 m6 l3"><div class="card-panel blue center-align">
-        <span class="white-text card-text">Streaming</span>
-      </div></div>
-    <div class="col s12 m6 l3"><div class="card-panel teal center-align">
-        <span class="white-text card-text">DeputyMods</span>
-      </div></div>
-    <div class="col s12 m6 l3"><div class="card-panel purple center-align">
-        <span class="white-text card-text">Posting</span>
-      </div></div>
-  </div>
-	  
-	  <hr>
-	  
-    <div class="container">
-      <div class="row">
-          <h4 class="header center">Which Type Of <span class="red darken-1">Video</span><span class="red-text text-darken-2"> Does He Make?</span></h4>
-          <p class="grey-text text-darken-3 lighten-3 light">I am a content creator on YouTube with the channel name <span style="color:#ff0000;">DeputyNickGaming</span>. 
-             I create engaging content related to gaming and mods, collaborating with my team at DeputyMods. My videos feature gameplay, tutorials, and exciting mod showcases to enhance your gaming experience. Join me on my journey!</p>
-      </div>
-  </div>  
-    
-  <ul id="tabs-swipe-demo" class="tabs center-align red darken-1 z-depth-2">
-    <li class="tab col s3"><a href="#test-swipe-1">DeputyMods</a></li>
-    <li class="tab col s3"><a class="active" href="#test-swipe-2">Discord</a></li>
-    <li class="tab col s3"><a href="#test-swipe-3">YouTube Channel</a></li>
-</ul>
+		<footer class="footer">
+			<p class="footer__title">Adiksuu</p>
 
-<ul id="tabs-swipe-demo" class="tabs center-align red darken-1 z-depth-2">
-  <li class="tab col s3"><a href="#test-swipe-1">DeputyMods</a></li>
-  <li class="tab col s3"><a class="active" href="#test-swipe-2">Discord</a></li>
-  <li class="tab col s3"><a href="#test-swipe-3">YouTube Channel</a></li>
-</ul>
+			<div class="footer__social">
+				<a href="https://be.net/Adiksuu" class="footer__icon"
+					><i class="fab fa-behance"></i
+				></a>
+				<a href="https://patreon.com/Adiksuu" class="footer__icon"
+					><i class="fab fa-patreon"></i
+				></a>
+				<a href="https://github.com/Adiksuu" class="footer__icon"
+					><i class="fab fa-github"></i
+				></a>
+			</div>
 
-<div id="test-swipe-1" class="col s12 grey lighten-5"> 
-  <div class="row center-align">
-      <div class="col s12" style="padding:30px;">
-          <span class="black-text">
-              <h2 class="header"><span class="red darken-1" style="padding:5px;">D E P U T Y </span> <span class="red-text text-darken-1">M O D S</span></h2>
-              <p class="grey-text text-darken-3 lighten-3">Explore the latest mods and updates!</p>
-          </span>
-      </div>
-      <div class="row z-depth-5">
-          <div class="col s12 m4">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title teal-text">Latest Mod Showcase</span>
-                  <div class="card-content">
-                      <p>Discover our newest mods designed to enhance your gaming experience. Stay tuned for updates!</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col s12 m4 red">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title red-text">Mod Features</span>
-                  <div class="card-content">
-                      <p>Learn about the features of our mods and how they can improve gameplay. Check it out!</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col s12 m4 blue">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title blue-text">User Reviews</span>
-                  <div class="card-content">
-                      <p>See what our users are saying about our mods. Feedback is always welcome!</p>
-                  </div>
-              </div>
-          </div>
-      </div>	
-  </div>
-</div>
-
-<div id="test-swipe-2" class="col s12 grey lighten-5">
-  <div class="row center-align">
-      <div class="col s12" style="padding:30px;">
-          <span class="black-text">
-              <h2 class="header"><span class="red darken-1" style="padding:5px;">J O I N </span> <span class="red-text text-darken-1">US ON DISCORD</span></h2>
-              <p class="grey-text text-darken-3 lighten-3">Connect with the community and get support!</p>
-          </span>
-      </div>
-      <div class="col s12 center-align">
-          <iframe src="https://discord.com/widget?id=1281455861427863666&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-      </div>
-  </div>
-</div>
-
-<div id="test-swipe-3" class="col s12 grey lighten-5">
-  <div class="row center-align">
-      <div class="col s12" style="padding:30px;">
-          <span class="black-text">
-              <h2 class="header"><span class="red darken-1" style="padding:5px;">C H E C K </span> <span class="red-text text-darken-1">OUT OUR YOUTUBE</span></h2>
-              <p class="grey-text text-darken-3 lighten-3">Watch our latest videos and tutorials!</p>
-          </span>
-      </div>
-      <div class="col s12 center-align">
-          <a href="https://www.youtube.com/@deputymods" target="_blank" class="btn red darken-1">Visit DeputyMods Channel</a>
-      </div>
-  </div>
-</div>
-
-<div id="test-swipe-4" class="col s12">
-  <div class="row center-align">
-      <div class="col s12" style="padding:30px;">
-          <span class="black-text">
-              <h2 class="header"><span class="blue darken-1" style="padding:5px;">P L A Y </span> <span class="blue-text darken-1">L I S T 2</span></h2>
-              <p class="grey-text text-darken-3 lighten-3">Playlist 2 Description Goes Here</p> 
-          </span>
-      </div>
-      <div class="row z-depth-5">
-          <div class="col s12 m4 teal">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title teal-text">Card Title</span>
-                  <div class="card-content">
-                      <p>This card contains small bits of information about Playlist 2.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col s12 m4 red">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title red-text">Card Title</span>
-                  <div class="card-content">
-                      <p>This card contains small bits of information about Playlist 2.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col s12 m4 blue">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title blue-text">Card Title</span>
-                  <div class="card-content">
-                      <p>This card contains small bits of information about Playlist 2.</p>
-                  </div>
-              </div>
-          </div>
-      </div>	
-  </div>
-</div>
-
-<div id="test-swipe-5" class="col s12">
-  <div class="row center-align">
-      <div class="col s12" style="padding:30px;">
-          <span class="black-text">
-              <h2 class="header"><span class="teal darken-1" style="padding:5px;">P L A Y </span> <span class="teal-text">L I S T 3</span></h2>
-              <p class="grey-text text-darken-3 lighten-3">Playlist 3 Description Goes Here</p> 
-          </span>
-      </div>
-      <div class="row z-depth-5">
-          <div class="col s12 m4 teal">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title teal-text">Card Title</span>
-                  <div class="card-content">
-                      <p>This card contains small bits of information about Playlist 3.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col s12 m4 red">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title red-text">Card Title</span>
-                  <div class="card-content">
-                      <p>This card contains small bits of information about Playlist 3.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="col s12 m4 blue">
-              <div class="card">
-                  <div class="card-image video-container z-depth-2">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/SoPg-PYVew0?si=iIhWfskQ8eiSlVGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <span class="card-title blue-text">Card Title</span>
-                  <div class="card-content">
-                      <p>This card contains small bits of information about Playlist 3.</p>
-                  </div>
-              </div>
-          </div>
-      </div>	
-  </div>
-</div>
-
-  
-  
-   <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons large">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-	 
-    </div>
-    <div class="parallax-container">
-      <div class="parallax"><img src="https://www.dailywoke.com/wp-content/uploads/2017/10/youtube-wall.jpg"></div>
-    </div>
-    
-  
-  <div class="fixed-action-btn">  
-  <a class="btn-floating btn-large red darken-1">
-    <i class="large material-icons">person
-</i>
-  </a>
-  <ul>
-    <li><a class="btn-floating blue darken-2"><i class="fa fa-linkedin"></i></a></li>
-    <li><a class="btn-floating blue"><i class="fa fa-facebook-square"></i></a></li>
-    <li><a class="btn-floating red darken-1"><i class="fa fa-youtube"></i></a></li>
-    <li><a class="btn-floating teal large "><i class="fa fa-twitter-square"></i></a></li>
-  </ul>
-</div>
-  
-               
-  
-   <footer class="page-footer red darken-1">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">#Swarnil</h5>
-                <p class="grey-text text-lighten-4">I am content Creator On Youtube. I </p>
-
-            <div class="social-icon">
-                    <a href="#"><i class="fa fa-facebook fa-3x "></i></a>
-                    <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
-					<a href="#"><i class="fa fa-youtube fa-3x"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-                     <a href="#"> <i class="fa fa-linkedin fa-3x"></i><a/>
-                  </div>
-				
-              </div>
-			  
-			  
-			  
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2019 Created By #Swarnil
-            <a class="grey-text text-lighten-4 right" href="#!">Visit My Youtube Channel</a>
-            </div>
-          </div>
-        </footer>
-	
-	
-	
-          
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.js"></script>
-	 <script src="vendor/custom.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
-
-  </body>
-
+			<p>&#169; 2024 copyright <span>DeputyMods</span>.</p>
+		</footer>
+		<script src="/src/scripts/script.js"></script>
+	</body>
 </html>
