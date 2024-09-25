@@ -1,0 +1,30 @@
+.social-icon
+{
+	display:inline-block;
+}
+.social-icon a{
+	color:white;
+	padding:8px;
+	font-size:10px;
+}
+.tabs .tab	a {
+	color:white;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.tabs .indicator
+{
+	background-color:white;
+}
+hr
+{
+	    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.card-text{
+	font-size:25px;
+}
