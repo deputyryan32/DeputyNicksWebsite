@@ -1,0 +1,10 @@
+sudo pm2 start yarn -- dev
+sudo nohup bash -c 'yarn dev' &
+
+
+sudo pm2 start "yarn dev" --interpreter bash --name api -- start 
+
+nohup bash -c 'yarn dev' &
+
+
+sudo pm2 start 'yarn dev' (<-working great)

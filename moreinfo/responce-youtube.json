@@ -1,0 +1,394 @@
+{
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/xTpqcchOn9vxVjcQZfP7Q_-BKGU\"",
+    "nextPageToken": "CAoQAA",
+    "pageInfo": {
+        "totalResults": 25,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/PnYNYL87DN2XLlB28eLPMLyga1U\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2019-09-24T14:18:47.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "YD1600BBAFBOX vs YD1600BBAEBOX",
+                "description": "YD1600BBAFBOX vs YD1600BBAEBOX\nYD1600BBAFBOX Pinnacle ridge 12nm\nYD1600BBAEBOX Summit ridge 14nm\nТеоретически YD1600BBAEBOX лучше за счет более точной литографии (более современной литографии)\nBasically YD1600BBAEBOX is better because of newest lithography.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Y3weP3nvzwc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Y3weP3nvzwc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Y3weP3nvzwc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Y3weP3nvzwc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Y3weP3nvzwc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Y3weP3nvzwc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/uhinEzusVbbBvd4Omj4VFwy_h-I\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2019-10-19T20:40:44.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "Private video",
+                "description": "This video is private.",
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "9n3AicRaUyQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/P4u5K3uETs62ZR6MULfse6Ke7q4\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2019-11-06T22:54:45.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "Это надо видеть: первое поколение Rizen",
+                "description": "Продолжаем дискуссию, что вы думаете по этому поводу?",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m74WSpdTEzM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m74WSpdTEzM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m74WSpdTEzM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/m74WSpdTEzM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/m74WSpdTEzM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "m74WSpdTEzM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/-2H-f4HXDv1Ga6jUbdvIR8ze-Ug\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2019-12-28T13:11:45.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "Странный Райзен 5 1600с турбобустом до 3.7GHz",
+                "description": "Сказка такая: выпустив более эфективную версию на год позже, АМД поняла что могут снабдить процессор более дешевым куллером, и процессор будет всеровно буститься до нужной частоты, экперимент был в 12нм(невозможно подтвердить), что дало возможность чуток снизить тепловыделение. На основе этого выпустили второе поколение с разными доработками.\nВыпущено за 3-4 месяца до этого видео вот https://youtu.be/Y3weP3nvzwc а мотом я решил прогнать по тестам.\nчастоты в 3.7 удается добится в некоторых приложениях на короткий срок и на 1 ядро. При уменьшении напряжения на ядро, да не ослышались - **уменьшении**, процессор становится в стоке значительно производительнее но буст частот уменьшается до 3.66, зато буст происходит по всем ядрам.\n-------------------------------\nПоддержка проекта\n\nhttps://www.patreon.com/igavelyuk\nКошелек Global24 (7867 8994 5584 59)\nОт банковских карт отказался в 2018году по ряду причин (Украина), решалось с адвокатом долгов не было, но банки в нахальную не закрывали счета.\n-------------------------------\n\nЖелезо и семплы можете присылать (Укрпочта, Новая Почта, MeestExptess):\nУкраина, село Великий Дальник, ул Соборная,  дом 119\nГавелюк Игорь",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "jyBsy0y4VPQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/xD357jq7KaxPjpfwxt585KKGqhY\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2019-12-28T13:12:00.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "Странный Райзен 5 1600с турбобустом до 3.7GHz",
+                "description": "Сказка такая: выпустив более эфективную версию на год позже, АМД поняла что могут снабдить процессор более дешевым куллером, и процессор будет всеровно буститься до нужной частоты, экперимент был в 12нм(невозможно подтвердить), что дало возможность чуток снизить тепловыделение. На основе этого выпустили второе поколение с разными доработками.\nВыпущено за 3-4 месяца до этого видео вот https://youtu.be/Y3weP3nvzwc а мотом я решил прогнать по тестам.\nчастоты в 3.7 удается добится в некоторых приложениях на короткий срок и на 1 ядро. При уменьшении напряжения на ядро, да не ослышались - **уменьшении**, процессор становится в стоке значительно производительнее но буст частот уменьшается до 3.66, зато буст происходит по всем ядрам.\n-------------------------------\nПоддержка проекта\n\nhttps://www.patreon.com/igavelyuk\nКошелек Global24 (7867 8994 5584 59)\nОт банковских карт отказался в 2018году по ряду причин (Украина), решалось с адвокатом долгов не было, но банки в нахальную не закрывали счета.\n-------------------------------\n\nЖелезо и семплы можете присылать (Укрпочта, Новая Почта, MeestExptess):\nУкраина, село Великий Дальник, ул Соборная,  дом 119\nГавелюк Игорь",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/jyBsy0y4VPQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "jyBsy0y4VPQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/OzUCyHv6d1g0RTrBJldxq0jIATY\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2019-12-28T13:12:00.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "Быстрая переделка Zalman CNPS10X Optima под сокет AM4",
+                "description": "Пуля из говна но рабочая, вполне рабочая\n-------------------------------\nПоддержка проекта\nhttps://www.patreon.com/igavelyuk\nКошелек Global24 (7867 8994 5584 59)\nОт банковских карт отказался в 2018году по ряду причин (Украина), решалось с адвокатом долгов не было, но банки в нахальную не закрывали счета.\n-------------------------------\nЖелезо и семплы можете присылать (Укрпочта, Новая Почта, MeestExptess):\nУкраина, село Великий Дальник, ул Соборная,  дом 119\nГавелюк Игорь",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hot6lUafnOM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hot6lUafnOM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hot6lUafnOM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/hot6lUafnOM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/hot6lUafnOM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "hot6lUafnOM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/Jpce17KaEiQXQ_lP9FIfKrHsUmw\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2020-01-07T13:10:15.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "121$ оверкилл для GTX1650 ну ты видел!?",
+                "description": "В свете недавних событий RX 470 c 8 гигабайтами чуть дороже 100$ это новый символ бомж - гейминга. \nСемплы стримов можно посмотреть тут пресет качества  - высокое.\nhttp://twitch.com/igavelyuk\n\nПродукт на TelemartUA (Radeon RX 470 8Gb) покупался здесь по цене 3399 грн (121$): https://telemart.ua/products/sapphire-radeon-rx-470-nitro-oc-8192mb-11256-17-20g-seller-recertified/ \n\nRozetka тут Radeon RX470 4Gb по цене 90$ https://hard.rozetka.com.ua/81748635/p81748635/\n\nРегаясь на альтернативе PayPal вы помогаете моему каналу по ссылке: https://transferwise.com/u/igorg294",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uo-MDQXpP9A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/oYV9aJDEt15c6kPli4BNHBvO-8U\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2020-01-07T13:10:26.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "121$ оверкилл для GTX1650 ну ты видел!?",
+                "description": "В свете недавних событий RX 470 c 8 гигабайтами чуть дороже 100$ это новый символ бомж - гейминга. \nСемплы стримов можно посмотреть тут пресет качества  - высокое.\nhttp://twitch.com/igavelyuk\n\nПродукт на TelemartUA (Radeon RX 470 8Gb) покупался здесь по цене 3399 грн (121$): https://telemart.ua/products/sapphire-radeon-rx-470-nitro-oc-8192mb-11256-17-20g-seller-recertified/ \n\nRozetka тут Radeon RX470 4Gb по цене 90$ https://hard.rozetka.com.ua/81748635/p81748635/\n\nРегаясь на альтернативе PayPal вы помогаете моему каналу по ссылке: https://transferwise.com/u/igorg294",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uo-MDQXpP9A"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/vLG8G3HxT2KMDyeeMj91tGvHAko\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2020-01-07T13:10:26.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "Обзор наушников Real-EL GDX 8000 ( RU )",
+                "description": "REAL-EL GDX-8000 Black/Red\nREAL-EL GDX-8000 Vibration Surround 7.1 BackLit Black/Red",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lQ7ynj5oyA0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lQ7ynj5oyA0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lQ7ynj5oyA0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "lQ7ynj5oyA0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"Fznwjl6JEQdo1MGvHOGaz_YanRU/H-9Hd2WGQISCUhptLFrUdm-4O6E\"",
+            "id": "UExscGwzWFhuX0Jpbjk4UTdmTmphVFVPWVFYaERaQlUtaS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2020-01-07T13:10:44.000Z",
+                "channelId": "UCVDWbghAS6ZSj0siBCOPVWg",
+                "title": "121$ оверкилл для GTX1650 ну ты видел!?",
+                "description": "В свете недавних событий RX 470 c 8 гигабайтами чуть дороже 100$ это новый символ бомж - гейминга. \nСемплы стримов можно посмотреть тут пресет качества  - высокое.\nhttp://twitch.com/igavelyuk\n\nПродукт на TelemartUA (Radeon RX 470 8Gb) покупался здесь по цене 3399 грн (121$): https://telemart.ua/products/sapphire-radeon-rx-470-nitro-oc-8192mb-11256-17-20g-seller-recertified/ \n\nRozetka тут Radeon RX470 4Gb по цене 90$ https://hard.rozetka.com.ua/81748635/p81748635/\n\nРегаясь на альтернативе PayPal вы помогаете моему каналу по ссылке: https://transferwise.com/u/igorg294",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uo-MDQXpP9A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "gavelWebTube",
+                "playlistId": "PLlpl3XXn_Bin98Q7fNjaTUOYQXhDZBU-i",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "uo-MDQXpP9A"
+                }
+            }
+        }
+    ]
+}

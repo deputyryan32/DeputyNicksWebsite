@@ -1,0 +1,35 @@
+{
+  [
+    {
+      "id":"0",
+      "title": "This is Title 1",
+      "preview": "Small article how to flash your Radeon 5600XT videocard BIOS",
+      "paragraph": [
+        "Small 1 article how to flash your Radeon 5600XT videocard BIOS",
+        "Small 2 article how to flash your Radeon 5600XT videocard BIOS",
+        "Small 3 article how to flash your Radeon 5600XT videocard BIOS"
+      ]
+    },
+    {
+      "id":"1",
+      "title": "This is Title 2",
+      "preview": "Small article how to flash your Radeon 5600XT videocard BIOS",
+      "paragraph": [
+        "Small 1 article how to flash your Radeon 5600XT videocard BIOS",
+        "Small 2 article how to flash your Radeon 5600XT videocard BIOS",
+        "Small 3 article how to flash your Radeon 5600XT videocard BIOS"
+      ]
+    },
+    {
+      "id":"2",
+      "title": "This is Title 3",
+      "preview": "Small article how to flash your Radeon 5600XT videocard BIOS",
+      "paragraph": [
+        "Small 1 article how to flash your Radeon 5600XT videocard BIOS",
+        "Small 2 article how to flash your Radeon 5600XT videocard BIOS",
+        "Small 3 article how to flash your Radeon 5600XT videocard BIOS"
+      ]
+    }
+
+  ]
+}

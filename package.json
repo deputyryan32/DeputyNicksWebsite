@@ -1,0 +1,21 @@
+{
+  "name": "blogger-heaven",
+  "version": "1.0.0",
+  "description": "Youtube blogger website",
+  "author": "igavelyuk",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-markdown-loader": "^2.4.1"
+  },
+  "devDependencies": {}
+}
