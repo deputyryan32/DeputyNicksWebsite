@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <httpProtocol>
+            <customHeaders>
+                {{#each headers}}
+                <add name="{{name}}" value="{{{value}}}" />
+                {{/each}}
+            </customHeaders>
+        </httpProtocol>
+    </system.webServer>
+</configuration>

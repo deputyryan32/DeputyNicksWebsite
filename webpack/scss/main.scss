@@ -1,0 +1,23 @@
+@import "variables";
+@import "leaderboard";
+@import "playlist";
+@import "hero";
+// @import "slides";
+@import "buttons";
+@import "mobile";
+// @import "socials";
+@import "tabs";
+@import "parallax";
+@import "common";
+// @import "images";
+
+html,
+body.jason-plays {
+    height: unset !important;
+    overflow: unset !important;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-grid {
+    display: grid;
+}

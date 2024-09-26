@@ -1,0 +1,42 @@
+<div class="section">
+    <div class="container-default w-container leaderboard">
+        <h2>Expedition speedrun leaderboard</h2>
+        <div class="tab-scroll">
+            <div class="tabs">
+                {{#each leaderboards as | board |}}
+                {{#if @index}}<div class="spacer"></div>{{/if}}
+                <div id="{{board.id}}" class="tab-item noselect {{#if board.isDisabled}}disabled{{/if}}">
+                    <img class="exp-icon" src="{{board.imageUrl}}" alt="{{board.name}}" />
+                    <h3 class="exp-name">{{board.name}}</h3>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+
+        <div class="tab-contents">
+            {{#each leaderboards as | board |}}
+            <div class="tab-content {{board.id}}">
+                {{#each board.times as | time |}}
+                <div class="time-icon noselect">
+                    <img src="{{time.icon}}" alt="{{time.name}}" />
+                </div>
+                <div class="time-name">
+                    <p>{{time.name}}</p>
+                </div>
+                <div class="time-time">
+                    <p>{{time.time}}</p>
+                </div>
+                <div class="time-link">
+                    {{#if time.link}}
+                    <a href="{{time.link}}" target="_blank" rel="noopener noreferrer"
+                        title="{{time.name}}">{{time.link}}</a>
+                    {{else}}
+                    ---
+                    {{/if}}
+                </div>
+                {{/each}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

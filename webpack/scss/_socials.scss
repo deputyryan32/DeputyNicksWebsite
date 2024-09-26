@@ -1,0 +1,33 @@
+.socials {
+    .social {
+        background-color: darken($secondary, 10%);
+        border-radius: 100%;
+        padding: 0.5em;
+        margin: 0.25em;
+        font-size: 2em;
+
+        &:hover {
+            padding: 0.65em;
+            margin: 0.1em;
+        }
+    }
+}
+
+.footer-social .social,
+.socials .social {
+
+    &:before {
+        color: white !important;
+    }
+}
+
+
+.footer-social {
+    flex-direction: row-reverse;
+    margin-right: -1.5em;
+
+    .social {
+        font-size: 2em;
+        margin: 0.5em;
+    }
+}

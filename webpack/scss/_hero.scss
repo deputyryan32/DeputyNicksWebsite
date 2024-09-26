@@ -1,0 +1,121 @@
+.shape---02 img {
+    animation: anim-shape02 4s, anim-zoom-in-out 5s;
+    animation-iteration-count: infinite;
+}
+
+.shape---03 img {
+    animation: anim-shape03 3s;
+    animation-iteration-count: infinite;
+}
+
+.shape---04 img {
+    animation: anim-shape03 4s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+.coin---01 img {
+    animation: anim-coin01 8s;
+    animation-iteration-count: infinite;
+}
+
+.coin---02 img {
+    animation: anim-coin02 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim-zoom-in-out {
+
+    0%,
+    100% {
+        padding-left: 0.1em;
+    }
+
+    50% {
+        padding-left: 1em;
+    }
+}
+
+@keyframes anim-shape02 {
+
+    0%,
+    100% {
+        transform: translateX(0) translateY(0) rotate(0);
+    }
+
+    25% {
+        transform: translateX(0.5em) translateY(0.17em) rotate(2deg);
+    }
+
+    50% {
+        transform: translateX(-0.5em) translateY(-0.7em) rotate(2deg);
+    }
+}
+
+@keyframes anim-shape03 {
+
+    0%,
+    100% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes anim-coin01 {
+
+    0%,
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+
+    10% {
+        transform: translateX(0.5em) translateY(-0.25em);
+    }
+
+    20% {
+        transform: translateX(0) translateY(0);
+    }
+
+    30% {
+        transform: translateX(-0.25em) translateY(-0.5em);
+    }
+
+    40% {
+        transform: translateX(0) translateY(0);
+    }
+
+    50% {
+        transform: translateX(-0.25em) translateY(0.5em);
+    }
+
+    60% {
+        transform: translateX(0) translateY(0);
+    }
+
+    70% {
+        transform: translateX(0.5em) translateY(0.5em);
+    }
+
+    80% {
+        transform: translateX(0) translateY(0);
+    }
+
+    90% {
+        transform: translateX(-0.5em) translateY(0.25em);
+    }
+}
+
+@keyframes anim-coin02 {
+
+    0%,
+    100% {
+        transform: rotate(0) scale(1);
+    }
+
+    50% {
+        transform: rotate(-5deg) scale(0.8);
+    }
+}

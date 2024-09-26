@@ -1,0 +1,11 @@
+[class^="parallax-"],
+[class*=" parallax-"] {
+    z-index: 1000;
+}
+
+.parallax-pc2 {
+    position: fixed;
+    top: 50vh;
+    left: 100vw;
+    height: 50vh;
+}

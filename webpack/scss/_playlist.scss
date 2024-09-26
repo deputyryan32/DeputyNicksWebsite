@@ -1,0 +1,19 @@
+.w-dyn-item {
+    .blog-card {
+        width: 100%;
+        object-fit: cover;
+        margin-top: -9.2%;
+        margin-bottom: -9.7%;
+    }
+
+    .mask img {
+        transition: all 500ms ease-in-out;
+    }
+
+    &:hover {
+        .mask img {
+            transform: scale3d(1.05, 1.05, 1);
+            transform-style: preserve-3d;
+        }
+    }
+}

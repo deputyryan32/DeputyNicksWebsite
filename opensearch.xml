@@ -1,0 +1,11 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+  xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Jason Plays gaming content creator! Join my NMS adventures!</ShortName>
+  <Description>I am a content creator focusing on No Man&#x27;s Sky and other games that I am passionate about! Join my gaming live streams!</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://jasonplays.com/favicon.ico</Image>
+  <Url type="text/html" template="https://jasonplays.com?q={searchTerms}">
+    <Param name="searchTerms" value="{searchTerms}" />
+  </Url>
+  <Url type="application/x-suggestions+json" template="https://jasonplays.com?q={searchTerms}" />
+</OpenSearchDescription>

@@ -1,0 +1,24 @@
+.tab-item {
+    > * {
+        pointer-events: none;
+    }
+}
+
+.tab-contents {
+    position: relative;
+
+    .tab-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        transition: opacity 250ms ease-in-out;
+
+        &.active {
+            opacity: 1;
+            position: unset;
+            z-index: 100;
+        }
+    }
+}

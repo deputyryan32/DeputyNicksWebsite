@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+{{> components/documentHead}}
+
+<body class="jason-plays">
+    <div class="page-wrapper">
+        <div role="banner" class="header w-nav">
+            <div class="container-default w-container">
+                <div class="header-wrapper">
+                    <div class="split-content header-right">
+                        <a href="/" target="_blank" rel="noopener noreferrer" class="header-logo-link w-nav-brand"
+                            title="Jason plays home">
+                            <img src="./assets/img/header.png" alt="Jason plays Logo" class="header-logo" /></a>
+                    </div>
+                    <div class="split-content header-middle hidden-in-mobile noselect">
+                        <nav class="nav-menu w-nav-menu">
+                            <ul class="header-navigation">
+                                <li class="nav-item-wrapper first">
+                                    <a href="/" target="_blank" rel="noopener noreferrer" title="home"
+                                        class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item-wrapper">
+                                    <a href="https://twitter.com/JasonPlaysNMS" target="_blank" title="twitter"
+                                        rel="noopener noreferrer" class="nav-link">Twitter</a>
+                                </li>
+                                <li class="nav-item-wrapper">
+                                    <a href="https://discord.gg/WUPmjM8H9V" target="_blank" rel="noopener noreferrer"
+                                        title="discord" class="nav-link">Discord</a>
+                                </li>
+                                <li class="nav-item-wrapper">
+                                    <a href="https://www.youtube.com/c/JasonPlaysAllDay" target="_blank" title="youtube"
+                                        rel="noopener noreferrer" class="nav-link">Youtube</a>
+                                </li>
+                                <li class="nav-item-wrapper">
+                                    <a href="https://www.facebook.com/JasonPlaysAllDay" target="_blank" title="facebook"
+                                        rel="noopener noreferrer" class="nav-link">Facebook</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="split-content header-left">
+                        <div class="nav-button-wrapper hidden-in-mobile">
+                            <a href="{{jasonPlays.subscribeToYT}}" target="_blank" rel="noopener noreferrer"
+                                class="button-primary small w-button" title="subscribe on youtube">Subscribe on
+                                Youtube!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section home-hero">
+            <div class="container-default">
+                <div class="grid-2-columns home-hero">
+                    <div>
+                        <h1>Join me on my adventures! <span class="hidden">{{meta.titleKeywords}}</span></h1>
+                        <div class="inner-container-550px">
+                            <p>I am your one stop for everything No Man's Sky. If you want to know about farming,
+                                exploration, or
+                                you need help with a community event or 2 then you are in the right place.</p>
+                        </div>
+                        <div class="mg-top-48px">
+                            <a href="{{jasonPlays.subscribeToYT}}" target="_blank" rel="noopener noreferrer"
+                                class="button-primary _2-buttons w-button" title="subscribe on youtube">Subscribe
+                                on Youtube!</a>
+                            <a href="{{jasonPlays.twitterLink}}" target="_blank" rel="noopener noreferrer"
+                                class="button-secondary w-button" title="follow on twitter">Follow me on
+                                Twitter</a>
+                        </div>
+                    </div>
+                    <div class="image-wrapper home-hero-image noselect">
+                        <div id="scene1" class="home-hero-shapes---a">
+                            <div data-depth="0.1" class="shape home-hero shape---02">
+                                <img src="./assets/img/robot.png" alt="" />
+                            </div>
+                            <div data-depth="0.15" class="shape home-hero shape---03">
+                                <img src="./assets/img/units.png" alt="" />
+                            </div>
+                        </div>
+                        <div id="scene2" class="home-hero-shapes---b">
+                            <div data-depth="0.25" class="shape home-hero shape---04">
+                                <img src="./assets/img/nanites.png" alt="" />
+                            </div>
+                            <div data-depth="0.5" class="shape home-hero coin---01">
+                                <img src="./assets/img/nexusProp1.png" alt="" />
+                            </div>
+                            <div data-depth="0.025" class="shape home-hero coin---02">
+                                <img src="./assets/img/2.png" alt="" />
+                            </div>
+                            <div data-depth="0.1" class="shape home-hero coin---03">
+                                <img src="./assets/img/PATCH.BUILDING.png" alt="" />
+                            </div>
+                        </div>
+                        <div id="scene-master">
+                            <img data-depth="0.1" src="./assets/img/logo-inverse.png" alt="logo" class="home-hero"
+                                style="padding: 7em" />
+                        </div>
+                        <img src="./assets/img/cover-blob.png" alt="background gradient"
+                            class="blob home-hero hidden-in-mobile" />
+                    </div>
+                </div>
+            </div>
+            <div class="container-default noselect">
+                <div class="logo-bar v1">
+                    <div id="feature-on" class="text-300 bold"></div>
+                    <div id="feature-logos" class="flex company-logos">
+                        <a href="{{jasonPlays.twitterLink}}" target="_blank" rel="noopener noreferrer"
+                            class="company-logo w-inline-block" title="twitter">
+                            <img src="./assets/img/companies/twitter.png" alt="Twitter" class="image company-logo">
+                        </a>
+                        <a href="{{jasonPlays.discordLink}}" target="_blank" rel="noopener noreferrer"
+                            class="company-logo w-inline-block" title="discord">
+                            <img src="./assets/img/companies/discord.svg" alt="Discord" class="image company-logo">
+                        </a>
+                        <a href="{{jasonPlays.youtubeLink}}" target="_blank" rel="noopener noreferrer"
+                            class="company-logo w-inline-block" title="youtube">
+                            <img src="./assets/img/companies/youtube.svg" alt="YouTube" class="image company-logo">
+                        </a>
+                        <a href="{{jasonPlays.facebookLink}}" target="_blank" rel="noopener noreferrer"
+                            class="company-logo w-inline-block" title="facebook">
+                            <img src="./assets/img/companies/facebook.svg" alt="Facebook" class="image company-logo">
+                        </a>
+                        <a href="{{jasonPlays.twitchLink}}" target="_blank" rel="noopener noreferrer"
+                            class="company-logo w-inline-block" title="twitch">
+                            <img src="./assets/img/companies/twitch.svg" alt="Twitch" class="image company-logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> components/leaderboard}}
+
+        <div class="section">
+            <div class="container-default w-container">
+                <div>
+                    <div class="grid-2-columns title-button">
+                        <div class="inner-container-450px _100-in-mobile">
+                            <h2 class="mg-bottom-0px">Latest playlists</h2>
+                        </div>
+                        <a href="{{jasonPlays.youtubePlaylist}}" target="_blank" rel="noopener noreferrer"
+                            class="button-secondary w-button" title="browse playlists">Browse
+                            playlists</a>
+                    </div>
+                    <div class="w-dyn-list">
+                        <div role="list" class="grid-2-columns blog-feed w-dyn-items">
+                            {{#each playlistCards as | plCard |}}
+                            <div role="listitem" class="w-dyn-item">
+                                <a href="{{plCard.link}}" target="_blank" rel="noopener noreferrer"
+                                    class="card blog-post-card w-inline-block" title="{{plCard.title}}">
+                                    <div class="mask">
+                                        <img src="{{plCard.imgUrl}}" alt="{{plCard.title}}" class="image blog-card" />
+                                    </div>
+                                    <div class="blog-card-content">
+                                        <div class="flex wrap mg-bottom-16px">
+                                            <div class="flex align-center mg-right-24px">
+                                                <div>{{plCard.title}}</div>
+                                            </div>
+                                        </div>
+                                        <h3 class="blog-card-title">{{plCard.descrip}}</h3>
+                                        <div class="link-primary">
+                                            <div class="inline-block">
+                                                <div class="inline">Read more</div>&nbsp;
+                                                <i class="icon-cheveron-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> components/footer}}
+    </div>
+    <img loading="lazy" src="./assets/img/planetCrafter2.png" class="parallax-pc2 hidden-in-mobile"
+        alt="image with parallax" data-0="transform:rotate(0deg);left:110vw;"
+        data-1500="transform:rotate(-25deg);left:85vw;" data-3000="left:85vw;"
+        data-3250="transform:rotate(0deg);left:100vw;" />
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script defer src="./assets/js/bundle.js?v={{version}}"></script>
+
+</html>

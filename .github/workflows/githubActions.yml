@@ -1,0 +1,52 @@
+name: NodeJS with Webpack
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: ['main']
+  # schedule:
+    # 2am everyday
+    # - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Setup Secrets
+        env:
+          GOOGLE_AUTH_KEY: ${{ secrets.GOOGLE_AUTH_KEY }}
+          AIRTABLE_APIKEY: ${{ secrets.AIRTABLE_APIKEY }}
+        run: |
+          touch .env
+          echo GOOGLE_AUTH_KEY="$GOOGLE_AUTH_KEY" >> .env
+          echo AIRTABLE_API_KEY="$AIRTABLE_APIKEY" >> .env
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Add more items to gitIgnore
+        run: |
+          echo webpack/* >> .gitignore
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          folder: ./ # The folder the action should deploy.
+
